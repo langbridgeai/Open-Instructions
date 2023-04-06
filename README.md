@@ -72,7 +72,7 @@ mindmap
                 LAION OIG
                 STACKOVERFLOW
                 BIGSCIENCE
-    RWD
+    <!-- RWD
       HUMAN INTERACTIONS
         SHARE GPT
             VICUNA
@@ -81,7 +81,7 @@ mindmap
             LMFLOW
                 NATURAL INSTRUCTIONS
                 MEDICAL-QA
-            OTHERS
+            OTHERS -->
 
 
 ```
