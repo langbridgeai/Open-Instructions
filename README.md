@@ -62,7 +62,7 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 ```mermaid
 mindmap
   root((mindmap))
-    self-generate instructions
+    Self-generate instructions
       Long history
       ::icon(fa fa-book)
       Popularisation
