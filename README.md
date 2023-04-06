@@ -73,8 +73,7 @@ mindmap
                 STACKOVERFLOW
                 BIGSCIENCE
     RWD
-      HUMAN INTERACTIONS
-        SHARE GPT
+        HUMAN INTERACTIONS
             VICUNA
             SHARE GPT 90K
         ACROSS DOMAINS
