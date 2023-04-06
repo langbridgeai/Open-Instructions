@@ -79,6 +79,6 @@ mindmap
         ACROSS DOMAINS
             LMFLOW
                 NATURAL INSTRUCTIONS
-                MEDICAL-QA
+                MEDICAL QA
             OTHERS
 ```
