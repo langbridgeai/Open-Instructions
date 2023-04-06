@@ -65,7 +65,12 @@ mindmap
     CHATGPT GENERATED INSTRUCTIONS
         SEED TASKS
             SELF INSTRUCT
-                ALPACA
-                    WILD INSTRUCT
+            ALPACA
+            WILD INSTRUCT
+        MORE TASK TYPES
+            GPT4ALL
+                LAION OIG
+                STACKOVERFLOW
+                BIGSCIENCE
 
 ```
