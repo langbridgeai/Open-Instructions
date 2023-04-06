@@ -62,8 +62,8 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 ```mermaid
 journey
     title My working day
-    section w/o multiturns
-      Self-Instruct: 5: Me, 2: Cat
+    section Self-Instruct
+      expert-written tasks: 5
       Go upstairs: 3: Me
       Do work: 1: Me, Cat
     section Go home
