@@ -62,7 +62,7 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 ```mermaid
 mindmap
   root((mindmap))
-    chatGPT|GPT-4 to self-generate instructions
+    self-generate instructions
       Long history
       ::icon(fa fa-book)
       Popularisation
