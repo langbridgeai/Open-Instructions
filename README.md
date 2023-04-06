@@ -62,7 +62,7 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 ```mermaid
 mindmap
   root((mindmap))
-    Use chatGPT/GPT-4<br/>to generate instructions
+    Use chatGPT/GPT-4 to generate instructions
         Seed Tasks from Experts
             Self-Instruct
                 Alpaca
