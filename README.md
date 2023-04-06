@@ -63,19 +63,19 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 mindmap
   root((mindmap))
     Use chatGPT/GPT-4<br/>to generate instructions
-      Seed Tasks from Experts
-        Self-Instruct
-          Alpaca
-            WildInstruct
-      More Seed Task Types
-        GPT4ALL
-          LAION OIG
-          Stackoverflow QAs
-          Bigscience/P3
+        Seed Tasks from Experts
+            Self-Instruct
+                Alpaca
+                    WildInstruct
+        More Seed Task Types
+            GPT4ALL
+                LAION OIG
+                Stackoverflow QAs
+                Bigscience/P3
     Real-World Interactions
-      ShareGPT
-        Vicuna
-        ShareGPT-90K
+        ShareGPT
+            Vicuna
+            ShareGPT-90K
         LMFLOW
-          Medical
+            Medical
 ```
