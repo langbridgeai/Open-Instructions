@@ -72,5 +72,14 @@ mindmap
                 LAION OIG
                 STACKOVERFLOW
                 BIGSCIENCE
-
+    RWD
+      HUMAN INTERACTIONS
+        SHARE GPT
+            VICUNA
+            SHARE GPT 90K
+        ACROSS DOMAINS
+            LMFLOW
+                NATURAL INSTRUCTIONS
+                MEDICAL-QA
+            OTHERS
 ```
