@@ -58,7 +58,7 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 [LMFlow](https://github.com/OptimalScale/LMFlow/tree/main) is a recent open source tookit for finetuning and inference of LLMs. They release a [natural instructions dataset](https://github.com/OptimalScale/LMFlow/blob/main/data/download.sh) but unfortunately without detailed descriptions of how they collected. Additionally, they also reformat three public Medical-QA related datasets known as `PubMedQA(ID)`, `MedMCQA(ID)`, `MedQA-USMLE (OOD)` for domain-specific finetuned LLaMA, which also achieves a feasible performance compared to chatGPT.
 
 
-## The logic to Enhancement
+## A Preliminary Mindmap
 ```mermaid
 mindmap
   root((mindmap))
