@@ -62,20 +62,21 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 ```mermaid
 mindmap
   root((mindmap))
-    Use chatGPT/GPT-4 to generate instructions
-        Seed Tasks from Experts
-            Self-Instruct
-                Alpaca
-                    WildInstruct
-        More Seed Task Types
-            GPT4ALL
-                LAION OIG
-                Stackoverflow QAs
-                Bigscience/P3
-    Real-World Interactions
-        ShareGPT
-            Vicuna
-            ShareGPT-90K
-        LMFLOW
-            Medical
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+
+
 ```
