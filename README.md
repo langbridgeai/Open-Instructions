@@ -62,21 +62,26 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 ```mermaid
 mindmap
   root((mindmap))
-    chatGPT generated instructions
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
+    CHATGPT GENERATED INSTRUCTIONS
+        SEED TASKS
+            SELF INSTRUCT
+                ALPACA
+                    WILD INSTRUCT
+        MORE TASK TYPES
+            GPT4ALL
+                LAION OIG
+                STACKOVERFLOW
+                BIGSCIENCE
+    RWD
+      HUMAN INTERACTIONS
+        SHARE GPT
+            VICUNA
+            SHARE GPT 90K
+        ACROSS DOMAINS
+            LMFLOW
+                NATURAL INSTRUCTIONS
+                MEDICAL-QA
+            OTHERS
 
 
 ```
