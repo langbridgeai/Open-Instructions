@@ -60,13 +60,22 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 
 ## The logic to Enhancement
 ```mermaid
-journey
-    title My working day
-    section Self-Instruct
-      expert-written tasks: 5
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+mindmap
+  root((mindmap))
+    Use chatGPT/GPT-4<br/>to generate instructions
+      Seed Tasks from Experts
+        Self-Instruct
+          Alpaca
+            WildInstruct
+      More Seed Task Types
+        GPT4ALL
+          LAION OIG
+          Stackoverflow QAs
+          Bigscience/P3
+    Real-World Interactions
+      ShareGPT
+        Vicuna
+        ShareGPT-90K
+        LMFLOW
+          Medical
 ```
