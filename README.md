@@ -67,21 +67,5 @@ mindmap
             SELF INSTRUCT
                 ALPACA
                     WILD INSTRUCT
-        MORE TASK TYPES
-            GPT4ALL
-                LAION OIG
-                STACKOVERFLOW
-                BIGSCIENCE
-    <!-- RWD
-      HUMAN INTERACTIONS
-        SHARE GPT
-            VICUNA
-            SHARE GPT 90K
-        ACROSS DOMAINS
-            LMFLOW
-                NATURAL INSTRUCTIONS
-                MEDICAL-QA
-            OTHERS -->
-
 
 ```
