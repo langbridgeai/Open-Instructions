@@ -60,7 +60,7 @@ Upon collection of the initial dataset of promptgeneration pairs, they loaded da
 
 ## The logic to Enhancement
 ```mermaid
-journey
+journey;
     The Journey of Public Instruction Data
     section Instructions w/o Multiturn Conversations
       text-davinci-003: 2: Self-Instruct, Alpaca, WildInstruct
