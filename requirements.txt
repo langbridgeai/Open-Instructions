@@ -1,0 +1,13 @@
+torch>=2.0.0
+transformers @ git+https://github.com/huggingface/transformers.git
+deepspeed
+fastapi
+gradio==3.23
+markdown2[all]
+sentencepiece
+tokenizer>=0.12.1
+uvicorn
+wandb
+prompt_toolkit>=3.0.0
+rich>=10.0.0
+requests
