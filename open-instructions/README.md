@@ -1,0 +1,1 @@
+Due to the large file size, we suggest you to download Open-Instructions from [Google Drive](https://drive.google.com/drive/folders/1ayDrI51us10WhtNNZkJH3HTSIrMZrEG3?usp=share_link) as of now.
