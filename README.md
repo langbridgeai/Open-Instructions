@@ -10,7 +10,7 @@ A Pavilion of recent Open Source Generative Pre-trained Transformer (GPT) Projec
 ## Overview
 
 <p align="center" width="100%">
-<a><img src="assets/ailurus-logo.png" alt="Ailurus" style="width: 20%; min-width: 300px; display: block; margin: auto;"></a>
+<a><img src="assets/ailurus-logo.png" alt="Ailurus" style="width: 30%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 The recent surge in more efficient & open-source LLMs projects has been nothing short of fervent, yet the various instruction-finetuned [LLaMAs](https://arxiv.org/abs/2302.13971v1) have left those genuinely interested in customized GPT or even decentralized AI feeling puzzled. Consequently, we try to build this project that consolidates existing resources on either LLaMAs or any GPT variant. As 🤗huggingface and peft has extensively integrated mature pre-training and fine-tuning pipelines, the majority of these open-source models or chatbots are compatible with unified `Trainer` of transformers. The sole distinction lies in the **datasets for finetuning**. Therefore, our open-source initiative's paramount contribution lies in assisting the community with consolidating existing open-source *datasets of instructions*, which is amalgamated and named as `Open-Instructions` ([GoogleDrive](https://drive.google.com/drive/folders/1ayDrI51us10WhtNNZkJH3HTSIrMZrEG3?usp=share_link)). We evaluate their strengths and weaknesses, and would also release an open-source efficient model trained on it, referred to as `Ailurus` which is my favorite animal.
@@ -34,15 +34,15 @@ Here is a short summary of different open-source datasets for instruction finetu
 
 | Dataset    | Num of Samples (Lang) | Engine | Cost |
 | -------- | ------- | ------- | -------|
-| Alpaca  | 52K En   | `text-davinci-003` | <$500 |
-| InstructionWild (Coati)| 52K En & 52K Zh | `text-davinci-003`| $880 |
-| ShareGPT-90K (Vicuna)| ~100K => 48K Multi-lingual | `gpt-3.5-turbo` | Scrapped(free?) |
-| GPT4ALL | ~806K => 437K Multi-lingual | `gpt-3.5-turbo` | $500 |
-| GPT4LLM    |  52K En & 52K Zh   | `gpt-4` | Est >$880 |
+| [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)  | 52K En   | `text-davinci-003` | <$500 |
+| [InstructionWild (Coati)](https://github.com/XueFuzhao/InstructionWild) | 52K En & 52K Zh | `text-davinci-003`| $880 |
+| [ShareGPT-90K (Vicuna)](https://github.com/lm-sys/FastChat) | ~100K => 48K Multi-lingual | `gpt-3.5-turbo` | Scrapped(free?) |
+| [GPT4ALL](https://github.com/nomic-ai/gpt4all) | ~806K => 437K Multi-lingual | `gpt-3.5-turbo` | $500 |
+| [GPT4LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) |  52K En & 52K Zh   | `gpt-4` | Est >$880 |
 
 
 ## Ailurus Checkpoints
-We aim to open source the entire training logs to receive feedback for improvements but it's still ongoing. We follow [Vicuna's](https://github.com/lm-sys/FastChat) data cleaning, training and inference pipeline to train Ailurus with [LoRA](https://github.com/microsoft/LoRA). As of now, we only release one checkpoint at [Google Drive](https://drive.google.com/drive/folders/1ayDrI51us10WhtNNZkJH3HTSIrMZrEG3?usp=share_link) as we observe the training kinda saturates at ~10k steps. But more is coming...
+We aim to open source the entire training logs to receive feedback for improvements but it's still ongoing. We follow [Vicuna's](https://github.com/lm-sys/FastChat) data cleaning, training and inference pipeline to train Ailurus with [LoRA](https://github.com/microsoft/LoRA). As of now, we only release one checkpoint at [Google Drive](https://drive.google.com/drive/folders/1ayDrI51us10WhtNNZkJH3HTSIrMZrEG3?usp=share_link) as we observe the training kinda saturates at ~10k steps. But more is coming...Again, we are not distributing LLaMA weights.
 <p align="center" width="100%">
 <a><img src="assets/checkpoint-10000-log.png" alt="Checkpoint" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
