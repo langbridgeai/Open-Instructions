@@ -20,7 +20,7 @@ Notes: In this project, we inherit most of the codes from [Vicuna](https://githu
 
 ## Contents
 - [Open-Instructions Summary](#open-instructions-summary)
-- [Ailurus Checkpoints](#ailurus-checkpoints)
+- [Ailurus (ours)](#ailurus-checkpoints)
 - [Alpaca](#alpaca)
 - [ColossalAI Chatbot (Coati)](#colossalai-chatbot)
 - [GPT4LLM](#gpt4llm)
